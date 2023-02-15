@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Password thing</title>
-    <script src="main.js"></script>
+    <title>Passwords</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, i'm working!</h1>
+    <main>
+        <div id="container">
+            <div>
+                <label for="pKeyID">Public key:</label><br>
+                <input type="text" name="pKey" id="pKeyID" autocomplete="off"/>
+            </div>
+            <div>
+                <label for="sKeyID">Secret key:</label><br>
+                <input type="password" name="sKey" id="sKeyID" autocomplete="off"/>
+            </div>
+            <button id="myButton">Get psw</button>
+            <p id="returnPsw" class="returnPsw"></p>
+        </div>
+    </main>
 </body>
+<script src="main.js"></script>
 </html>

@@ -306,3 +306,5 @@ async function getPassword() {
 
     document.getElementById("returnPsw").innerHTML = convertBinToStr(binPsw);
 }
+
+document.getElementById("myButton").addEventListener("click", getPassword);
