@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Passwords",
+  "description": "A simple add on to control all your passwords with a sing le one",
+  "version": "1.0",
+  "icons": {
+    "16": "/images/icon.png",
+    "48": "/images/icon.png",
+    "128": "/images/icon.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "/images/icon.png",
+      "48": "/images/icon.png",
+      "128": "/images/icon.png"
+    },
+    "default_popup" : "index.html"
+  },
+  "content_scripts": [{
+    "js": ["main.js"]
+  }]
+}
